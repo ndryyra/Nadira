@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us - Manga List UAS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, nav, footer {
+            background-color: #721585;
+            padding: 10px;
+        }
+
+        .main-container {
+            display: flex;
+            flex: 1;
+        }
+
+        .content {
+            flex: 3;
+            padding: 20px;
+        }
+
+        .widget-sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #a593a7;
+            border-left: 1px solid #dddddd;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            background-color: #af9a9d;
+        }
+
+        .menu-horizontal ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .menu-horizontal a {
+            text-decoration: none;
+            color: rgb(116, 55, 121);
+        }
+
+        .menu-horizontal a.active {
+            font-weight: bold;
+        }
+
+        img, video {
+            max-width: 50%;
+            height: auto;
+            margin-top: 15px;
+        }
+        .widget-sidebar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Manga Zone</h1>
+    </header>
+
+    <nav class="menu-horizontal">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="services.html">Genre</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <main class="content">
+            <h2>Halaman Saya</h2>
+            <p>Berisi konten logo dan video serta profile saya.</p>
+            <img src="c:\Users\Nadira Utami\Downloads\logo.png" alt="About Us" />
+            
+            <h3>Video Profil</h3>
+            <video width="320" height="240" controls>
+                <source src="c:\Users\Nadira Utami\Downloads\ssstik.io_@helloguy555_1751466418388.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </main>
+
+        <aside class="widget-sidebar">
+            <h3>Profile</h3>
+             <img src="c:\Users\Nadira Utami\Downloads\profile.jpg" alt="About Us" />
+            <p>Hallo perkenalkan  nama saya Nadira utami, saya adalah mahasiswa politeknik negeri padang jurusan tenknologi informasi.<p>
+            <p>Sekarang saya lagi membuat suatu website bertema manga,karna saya sangat menyukai manga dan hal-hal mengenai anime<p>
+            <p>jika mau berdiskusi bisa hubungi email atau  ingtagram saya di bawah<p>  
+        </aside>
+    </div>
+
+  <footer>
+    <div class="footer-widget">
+        <strong>Email:</strong><br>
+        <a href="mailto:nadirautami18@gmail.com">nadirautami18@gmail.com</a>
+    </div>
+
+    <div class="footer-widget">
+    <strong>Instagram:</strong><br>
+    <a href="https://www.instagram.com/ndrryaa_" target="_blank">@ndrryaa_</a>
+</div>
+
+
+    <div class="footer-widget">
+        <strong>Favorit: Quick Links</strong><br>
+        <a href="https://mangadex.org/title/a1c7c817-4e59-43b7-9365-09675a149a6f/one-piece" target="_blank">Lihat Koleksi</a>
+    </div>
+</footer>
+
